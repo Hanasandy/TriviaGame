@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Basic Triva Game</title>
+	<!-- CSS Files -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+</head>
+<body>
+		 <embed src="../assets/sound/Linus And Lucy.mp3" autoStart="true" loop="2" hidden="false" height="42" width="280">
+	<header id="masthead">
+		<div class="container">
+			<h1>Do You Know Your Dog?</h1>
+		</div>
+	</header>
+
+	<div id="main-container" class="container contents">
+		
+		<div class="rules">
+		    <h1 class="game-title">The Rules</h1>
+			<h1 class="game-rules">There are 5 questions, <br>you have 20 seconds to answer each question.</h1>
+        </div>
+
+		<section class="data">
+				
+				<!-- timer will be displayed in div#show-number-->
+			<div id="show-number"></div>
+			
+			<div id="timer">
+			    <p id="timer">Time Remaining: <span id="time-remaining"></span></p>
+			</div>
+            <!-- Question -->
+			<div id="asked-question"></div>
+			  
+			<div id="containerForChoiceOptions"></div>
+
+		</section>
+
+        <div class="results">
+			<p class="correct"</p>
+			<p class="incorrect"></p>
+			<p class="empty"></p>
+			<!-- <button  class="btn btn-primary restart">Play Again</button> -->
+	    </div>
+
+		
+			<button class="btn btn-primary start">Start!</button>
+
+	</div> <!-- end of container contents -->
+	
+	<footer id="footer" class="site-footer">
+		<div class="container">
+			&copy; Copyright 2017 Heidi Tochigi
+		</div>
+	</footer>
+		<!-- JavaScript File & jQuery Lib -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+		<script type="text/javascript" src="../assets/javascript/app.js"></script>
+</body>
+</html>

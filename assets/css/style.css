@@ -1,0 +1,95 @@
+body {
+	background: url("../images/cropped-Dogs.png") 0 0 no-repeat;
+    background-size: cover;
+	font-size: 14px;
+	line-height: 34px;
+	color: #0c4f23;
+	font-family: 'Gochi Hand', cursive;
+}
+* {
+	box-sizing: border-box;
+}
+/* general element */
+header, footer, section{
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+header{
+	background-color: orange;
+	height: 120px;
+}
+header h1{
+	padding: 40px;
+	font-size: 60px;
+	font-style: bolder;
+	font-weight: bolder;
+	font-family: 'Gochi Hand', cursive;
+}
+h2{
+	font-size: 30px;
+	font-family: 'Gochi Hand', cursive;
+}
+.rules h1{
+	text-align: left;
+	margin-left: 10px;
+	font-weight: bolder;
+	font-size: 30px;
+}
+#asked-question{
+	font-size: 25px;
+}
+#containerForChoiceOptions{
+	font-size: 20px;
+	text-align:  left;
+}
+#timer{
+	font-size: 25px;
+	color: #ff8c00;
+}
+#main-container{
+	width: 75%;
+    background-color: #696969;
+    color: #fff;
+    opacity: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.results p{
+	font-size: 25px;
+	color: #ff8c00;
+	font-weight: bold;
+}
+.main-section p{
+	font-size: 30px;
+/*	text-align: auto;*/
+	font-family: 'Gochi Hand', cursive;
+}
+button{
+	background-color: orange;
+	width: 20%;
+	height: 30px;
+	opacity: 1 !important;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'Gochi Hand', cursive;
+}
+.rules{
+	font-size: 20px;
+	font-style: bold;
+	font-weight: bold;
+	font-family: 'Gochi Hand', cursive;
+}
+.data{
+	display: none;
+}
+/* footer */
+footer{
+    background-color: orange;
+	height: 60px;
+	clear: both;
+	padding: 20px;
+	font-style: bold;
+}
